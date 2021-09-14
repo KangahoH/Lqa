@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Question extends Model
 {
-    // use HasFactory;
+    use HasFactory;
+    
 
     protected $fillable = ['title','body'];
 
